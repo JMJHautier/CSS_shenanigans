@@ -1,0 +1,13 @@
+.text {
+  font-size: 80px;
+  font-weight: 700;
+  background-clip: text;
+  color: transparent;
+  background-image: url("./french.webp");
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  /* background-color:lightgrey; */
+}
+.background {
+  background-color: lightgrey;
+}
