@@ -3,11 +3,27 @@
   font-weight: 700;
   background-clip: text;
   color: transparent;
-  background-image: url("./french.webp");
-  background-size: 40% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* background-color:lightgrey; */
+  margin-bottom: 30px;
+}
+
+.text.french {
+  background-image: url("./french.webp");
+}
+
+.text.german {
+  background-image: url("./y9xqs7z8.bmp");
+}
+
+.text.british {
+  background-image: url("./Flag_of_Great_Britain_\(1707–1800\).svg.png");
 }
 .background {
   background-color: lightgrey;
+  border-radius: 15px;
+  box-shadow: 0 0px 10px #3e3e3e;
+  background-clip: content-box;
+  width: fit-content;
+  margin: auto;
 }
