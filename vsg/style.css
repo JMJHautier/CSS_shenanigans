@@ -1,0 +1,20 @@
+body {
+}
+svg {
+  display: block;
+  fill: red;
+  margin: auto;
+  transform: rotate("90deg");
+  stroke: blue;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+.mysvg {
+  width: 300px;
+  border: 1px solid black;
+}
+
+g {
+  margin: auto;
+}
