@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: black;
+}
+
+.item1,
+.item2,
+.item3 {
+  flex-shrink: 0;
+}
+.item1 {
+  position: relative;
+  width: 100%;
+  min-height: 15vh;
+  border: 1px solid gold;
+  background-color: blue;
+  z-index: 100;
+}
+.inner1 {
+  position: relative;
+  transform: translateY(-50%);
+  background-color: green;
+  z-index: -1;
+}
+.item2 {
+  width: 80%;
+  min-height: 50vh;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.item3 {
+  position: relative;
+  min-height: 15vh;
+  min-width: 100%;
+
+  background-color: yellow;
+}
