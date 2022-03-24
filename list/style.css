@@ -1,0 +1,13 @@
+li:nth-child(2n + 3) {
+  color: red;
+}
+
+div:nth-child(2) {
+  /* sélectionne le div qui est dans la liste, car il est bien dans la position de Deuxième enfant dans l'arbre */
+
+  color: red;
+}
+body:nth-child(3) {
+  /* ne fait rien, car body est le deuxième enfant de html */
+  color: red;
+}
