@@ -1,0 +1,39 @@
+img {
+  width: 200px;
+}
+section {
+  clear: both;
+}
+p {
+  border: 2px solid gold;
+}
+
+.legend {
+  font-style: italic;
+  border: 2px solid green;
+}
+.no-float {
+  float: none;
+}
+
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: Left;
+}
+.clearboth {
+  clear: both;
+  clear: left right initial;
+}
+
+.clearLeft {
+  clear: left;
+}
+
+.clearRight {
+  clear: right;
+}
+span {
+  color: green;
+}
