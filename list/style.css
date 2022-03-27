@@ -2,7 +2,7 @@ li:nth-child(2n + 3) {
   color: red;
 }
 
-div:nth-child(2) {
+div:nth-child(2):not(:first-of-type) {
   /* sélectionne le div qui est dans la liste, car il est bien dans la position de Deuxième enfant dans l'arbre */
 
   color: red;
@@ -10,4 +10,30 @@ div:nth-child(2) {
 body:nth-child(3) {
   /* ne fait rien, car body est le deuxième enfant de html */
   color: red;
+}
+
+a[href^="#"] {
+  color: antiquewhite;
+}
+
+li[title="hello"] {
+  background-color: blue;
+}
+
+li:nth-of-type(7) {
+  background-color: red;
+}
+
+a:link {
+  background: #0000ff;
+}
+a:hover {
+  background: rgba(0, 0, 255, 0.5);
+}
+
+a:link {
+  background: blue;
+}
+a:hover {
+  color: rgba(0, 0, 255, 0.5);
 }
